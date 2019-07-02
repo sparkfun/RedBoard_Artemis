@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -31090,8 +31090,7 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="C16" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U$7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
-<part name="D5" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
+<part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT60A" value="3A/10V/280mV"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
 <part name="BT1" library="SparkFun-Batteries" deviceset="BATTERY" device="-20MM_SMD_4LEGS_OVERPASTE" value="CR2032"/>
@@ -31100,7 +31099,7 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="CONN_02" device="1X02_NO_SILK"/>
-<part name="JP15" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
+<part name="MEAS" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" value=""/>
 <part name="Y1" library="SparkFun-Clocks" deviceset="CRYSTAL-32.768KHZ" device="SMD-3.2X1.5" value="32.768kHz"/>
 <part name="C11" library="SparkFun-Capacitors" deviceset="15PF" device="-0603-50V-5%" value="15pF"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="15PF" device="-0603-50V-5%" value="15pF"/>
@@ -32301,7 +32300,7 @@ broken out to SMD pads</text>
 <text x="16.764" y="162.052" size="1.778" layer="97" font="vector">VIN Range: 7-15V</text>
 <text x="106.68" y="134.62" size="1.778" layer="97" font="vector">3.3V
 600mA Out</text>
-<text x="187.96" y="170.18" size="1.27" layer="97">Cut jumper for
+<text x="193.04" y="170.18" size="1.27" layer="97">Cut jumper for
 current measurements</text>
 <text x="122.174" y="180.086" size="2.54" layer="94" font="vector" ratio="15" align="center">Power Supplies</text>
 <text x="71.374" y="83.566" size="2.54" layer="94" font="vector" ratio="15" align="center">Microphone</text>
@@ -32425,16 +32424,12 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="U$7" gate="G$1" x="101.6" y="160.02" smashed="yes">
 <attribute name="VALUE" x="101.6" y="162.814" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D4" gate="G$1" x="175.26" y="154.94" smashed="yes">
-<attribute name="NAME" x="172.72" y="156.972" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="165.1" y="152.908" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D4" gate="G$1" x="185.42" y="160.02" smashed="yes" rot="R270">
+<attribute name="NAME" x="187.452" y="162.56" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="175.26" y="152.908" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="D5" gate="G$1" x="175.26" y="142.24" smashed="yes">
-<attribute name="NAME" x="172.72" y="144.272" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="165.1" y="140.208" size="1.778" layer="96" font="vector" align="top-left"/>
-</instance>
-<instance part="SUPPLY10" gate="G$1" x="170.18" y="157.48" smashed="yes">
-<attribute name="VALUE" x="170.18" y="160.274" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY10" gate="G$1" x="185.42" y="165.1" smashed="yes">
+<attribute name="VALUE" x="185.42" y="167.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY11" gate="VDD" x="205.74" y="162.56" smashed="yes">
 <attribute name="VALUE" x="205.74" y="165.354" size="1.778" layer="96" align="bottom-center"/>
@@ -32449,8 +32444,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <instance part="GND22" gate="1" x="154.94" y="142.24" smashed="yes">
 <attribute name="VALUE" x="154.94" y="141.986" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY17" gate="G$1" x="170.18" y="144.78" smashed="yes">
-<attribute name="VALUE" x="170.18" y="147.574" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY17" gate="G$1" x="175.26" y="165.1" smashed="yes">
+<attribute name="VALUE" x="175.26" y="167.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY1" gate="G$1" x="137.16" y="160.02" smashed="yes">
 <attribute name="VALUE" x="137.16" y="162.814" size="1.778" layer="96" align="bottom-center"/>
@@ -32459,8 +32454,8 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <attribute name="VALUE" x="202.946" y="142.24" size="1.778" layer="96" font="vector" rot="R90"/>
 <attribute name="NAME" x="192.532" y="142.24" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="JP15" gate="G$1" x="198.12" y="160.02" smashed="yes">
-<attribute name="NAME" x="195.58" y="162.56" size="1.778" layer="95" font="vector"/>
+<instance part="MEAS" gate="G$1" x="198.12" y="160.02" smashed="yes">
+<attribute name="NAME" x="195.072" y="162.052" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="195.58" y="157.48" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -32655,10 +32650,20 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="172.72" y1="142.24" x2="170.18" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="142.24" x2="170.18" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="154.94" x2="175.26" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="185.42" y1="154.94" x2="185.42" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
+<junction x="185.42" y="154.94"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="190.5" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="154.94" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="MEAS" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="160.02" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
+<junction x="190.5" y="154.94"/>
+<wire x1="175.26" y1="154.94" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="OUT"/>
@@ -32745,7 +32750,7 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <wire x1="198.12" y1="152.4" x2="198.12" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="154.94" x2="205.74" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="154.94" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="JP15" gate="G$1" pin="2"/>
+<pinref part="MEAS" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="VDD" pin="VDD"/>
 <wire x1="205.74" y1="162.56" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
@@ -32783,32 +32788,13 @@ https://www.eeweb.com/tools/external-pcb-trace-max-current</text>
 <net name="V_BATT" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="172.72" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="162.56" x2="185.42" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="V_BATT"/>
-<wire x1="170.18" y1="154.94" x2="170.18" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="BT1" gate="G$1" pin="+"/>
 <pinref part="SUPPLY16" gate="G$1" pin="V_BATT"/>
 <wire x1="154.94" y1="160.02" x2="154.94" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="177.8" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="142.24" x2="185.42" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="185.42" y1="154.94" x2="177.8" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="154.94" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
-<junction x="185.42" y="154.94"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="154.94" x2="195.58" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="154.94" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="JP15" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="160.02" x2="190.5" y2="154.94" width="0.1524" layer="91"/>
-<junction x="190.5" y="154.94"/>
 </segment>
 </net>
 <net name="PDMDATA" class="0">

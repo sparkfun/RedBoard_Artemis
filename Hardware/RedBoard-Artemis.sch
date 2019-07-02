@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="2" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="5" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="12" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="12" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -31069,7 +31069,7 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="U$5" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-SI2309DS" value="1.1A/60V/600mΩ"/>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET_PCH" device="-DMG2307L" value="2.5A/30V/105mΩ"/>
 <part name="U$8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="IC3" library="Testing" deviceset="V_REG_LM1117" device="ALT1" value="LM1117">
 <attribute name="PROD_ID" value="VREG-08170"/>
@@ -31134,6 +31134,23 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <part name="J4" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
+<part name="JP12" library="SparkFun-Connectors" deviceset="M10" device="NO_SILK" value="M10NO_SILK">
+<attribute name="PROD_ID" value="CONN-11219"/>
+</part>
+<part name="JP15" library="SparkFun-Connectors" deviceset="M08" device="NO_SILK">
+<attribute name="PROD_ID" value="CONN-10204"/>
+</part>
+<part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
+<part name="JP17" library="SparkFun-Connectors" deviceset="M08" device="NO_SILK" value="JP11">
+<attribute name="PROD_ID" value="CONN-10204"/>
+</part>
+<part name="JP18" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK">
+<attribute name="PROD_ID" value="CONN-10203"/>
+</part>
+<part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="VDD" device=""/>
+<part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -31154,6 +31171,7 @@ broken out to SMD pads</text>
 <text x="213.614" y="180.086" size="2.54" layer="94" font="vector" ratio="15" align="center">Headers</text>
 <wire x1="162.56" y1="71.12" x2="162.56" y2="185.42" width="0.2032" layer="97" style="longdash"/>
 <text x="16.256" y="127.254" size="1.778" layer="97" rot="R90">DNP</text>
+<text x="299.974" y="180.086" size="2.54" layer="94" font="vector" ratio="15" align="center">Headers</text>
 </plain>
 <instances>
 <instance part="R1" gate="G$1" x="210.82" y="99.06" smashed="yes" rot="R270">
@@ -31458,6 +31476,39 @@ broken out to SMD pads</text>
 <attribute name="NAME" x="76.2" y="170.688" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.2" y="81.28" size="1.778" layer="96"/>
 </instance>
+<instance part="JP12" gate="G$1" x="322.58" y="124.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="321.564" y="116.586" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="PROD_ID" x="322.58" y="124.46" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="JP15" gate="G$1" x="279.4" y="162.56" smashed="yes" rot="MR0">
+<attribute name="PROD_ID" x="279.4" y="162.56" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="VALUE" x="284.48" y="149.86" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="283.21" y="160.782" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="GND33" gate="1" x="271.78" y="149.86" smashed="yes">
+<attribute name="VALUE" x="269.24" y="147.32" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="271.78" y="175.26" smashed="yes">
+<attribute name="VALUE" x="271.78" y="178.054" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY20" gate="G$1" x="269.24" y="157.48" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="269.24" y="160.274" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="JP17" gate="G$1" x="317.5" y="144.78" smashed="yes" rot="R180">
+<attribute name="VALUE" x="321.564" y="139.446" size="1.778" layer="96" font="vector" rot="R90"/>
+<attribute name="PROD_ID" x="317.5" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="JP18" gate="G$1" x="317.5" y="165.1" smashed="yes" rot="R180">
+<attribute name="PROD_ID" x="317.5" y="165.1" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="VALUE" x="322.58" y="175.26" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="321.564" y="160.782" size="1.778" layer="95" rot="R90"/>
+</instance>
+<instance part="SUPPLY26" gate="VDD" x="266.7" y="175.26" smashed="yes">
+<attribute name="VALUE" x="266.7" y="178.054" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND36" gate="1" x="309.88" y="101.6" smashed="yes">
+<attribute name="VALUE" x="307.34" y="99.06" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31521,6 +31572,11 @@ broken out to SMD pads</text>
 <label x="144.78" y="149.86" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(MOSI0/CLKOUT)~D7"/>
 </segment>
+<segment>
+<wire x1="312.42" y1="121.92" x2="302.26" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="JP12" gate="G$1" pin="7"/>
+<label x="302.26" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="~D12/MISO" class="0">
 <segment>
@@ -31532,6 +31588,11 @@ broken out to SMD pads</text>
 <wire x1="142.24" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
 <label x="144.78" y="152.4" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(SDA0/MISO0/I2SDAT)~D6"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="119.38" x2="302.26" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="JP12" gate="G$1" pin="6"/>
+<label x="302.26" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~D13/SCK" class="0">
@@ -31549,6 +31610,11 @@ broken out to SMD pads</text>
 <label x="144.78" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(SCL0/SCK0)~D5"/>
 </segment>
+<segment>
+<wire x1="312.42" y1="116.84" x2="294.64" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="JP12" gate="G$1" pin="5"/>
+<label x="294.64" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="5V" class="1">
 <segment>
@@ -31556,6 +31622,12 @@ broken out to SMD pads</text>
 <pinref part="JP10" gate="G$1" pin="4"/>
 <wire x1="185.42" y1="162.56" x2="187.96" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="162.56" x2="185.42" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY2" gate="G$1" pin="5V"/>
+<pinref part="JP15" gate="G$1" pin="4"/>
+<wire x1="271.78" y1="162.56" x2="274.32" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="162.56" x2="271.78" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -31689,6 +31761,26 @@ broken out to SMD pads</text>
 <wire x1="223.52" y1="91.44" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="JP16" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<wire x1="274.32" y1="157.48" x2="271.78" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="JP15" gate="G$1" pin="2"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+<wire x1="271.78" y1="152.4" x2="271.78" y2="157.48" width="0.1524" layer="91"/>
+<junction x="271.78" y="157.48"/>
+<wire x1="274.32" y1="160.02" x2="271.78" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="JP15" gate="G$1" pin="3"/>
+<wire x1="271.78" y1="160.02" x2="271.78" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP12" gate="G$1" pin="3"/>
+<wire x1="312.42" y1="111.76" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="111.76" x2="309.88" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="JP12" gate="G$1" pin="4"/>
+<wire x1="312.42" y1="114.3" x2="309.88" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="114.3" x2="309.88" y2="111.76" width="0.1524" layer="91"/>
+<junction x="309.88" y="111.76"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
@@ -31717,6 +31809,12 @@ broken out to SMD pads</text>
 <pinref part="JP10" gate="G$1" pin="1"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VIN"/>
 <wire x1="182.88" y1="154.94" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="269.24" y1="154.94" x2="274.32" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="JP15" gate="G$1" pin="1"/>
+<pinref part="SUPPLY20" gate="G$1" pin="VIN"/>
+<wire x1="269.24" y1="154.94" x2="269.24" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USBVCC" class="1">
@@ -31879,6 +31977,11 @@ broken out to SMD pads</text>
 <wire x1="30.48" y1="88.9" x2="30.48" y2="93.98" width="0.1524" layer="91" style="longdash"/>
 <junction x="30.48" y="93.98"/>
 </segment>
+<segment>
+<wire x1="274.32" y1="167.64" x2="264.16" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="JP15" gate="G$1" pin="6"/>
+<label x="264.16" y="167.64" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="~D0/RXI-1" class="0">
 <segment>
@@ -31890,6 +31993,11 @@ broken out to SMD pads</text>
 <wire x1="142.24" y1="119.38" x2="144.78" y2="119.38" width="0.1524" layer="91"/>
 <label x="144.78" y="119.38" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(SDA2/MISO2/RX1)~D25"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="152.4" x2="302.26" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="G$1" pin="1"/>
+<label x="302.26" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~D1/TXO-1" class="0">
@@ -31903,6 +32011,11 @@ broken out to SMD pads</text>
 <label x="144.78" y="121.92" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(TX1/32KHZ/SWO)~D24"/>
 </segment>
+<segment>
+<wire x1="312.42" y1="149.86" x2="302.26" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="G$1" pin="2"/>
+<label x="302.26" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="D14/SDA" class="0">
 <segment>
@@ -31914,6 +32027,11 @@ broken out to SMD pads</text>
 <wire x1="142.24" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <label x="144.78" y="99.06" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(SDA4/MISO4/RX1)D40"/>
+</segment>
+<segment>
+<pinref part="JP12" gate="G$1" pin="2"/>
+<wire x1="312.42" y1="109.22" x2="292.1" y2="109.22" width="0.1524" layer="91"/>
+<label x="292.1" y="109.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~D15/SCL" class="0">
@@ -31927,6 +32045,11 @@ broken out to SMD pads</text>
 <label x="144.78" y="101.6" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(SCL4/SCK4/TX1)~D39"/>
 </segment>
+<segment>
+<pinref part="JP12" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="106.68" x2="292.1" y2="106.68" width="0.1524" layer="91"/>
+<label x="292.1" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="~D19/A3" class="0">
 <segment>
@@ -31938,6 +32061,11 @@ broken out to SMD pads</text>
 <wire x1="226.06" y1="162.56" x2="215.9" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="G$1" pin="4"/>
 <label x="215.9" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="162.56" x2="302.26" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="JP18" gate="G$1" pin="4"/>
+<label x="302.26" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -32021,6 +32149,16 @@ broken out to SMD pads</text>
 <junction x="180.34" y="170.18"/>
 <pinref part="SUPPLY14" gate="VDD" pin="VDD"/>
 </segment>
+<segment>
+<wire x1="274.32" y1="165.1" x2="266.7" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="JP15" gate="G$1" pin="5"/>
+<wire x1="266.7" y1="175.26" x2="266.7" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="JP15" gate="G$1" pin="7"/>
+<wire x1="266.7" y1="170.18" x2="266.7" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="170.18" x2="266.7" y2="170.18" width="0.1524" layer="91"/>
+<junction x="266.7" y="170.18"/>
+<pinref part="SUPPLY26" gate="VDD" pin="VDD"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
@@ -32056,6 +32194,11 @@ broken out to SMD pads</text>
 <pinref part="JP13" gate="G$1" pin="1"/>
 <label x="215.9" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="312.42" y1="170.18" x2="302.26" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="JP18" gate="G$1" pin="1"/>
+<label x="302.26" y="170.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="~D17/A1" class="0">
 <segment>
@@ -32067,6 +32210,11 @@ broken out to SMD pads</text>
 <wire x1="226.06" y1="167.64" x2="215.9" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="JP13" gate="G$1" pin="2"/>
 <label x="215.9" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="167.64" x2="302.26" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="JP18" gate="G$1" pin="2"/>
+<label x="302.26" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D18/A2" class="0">
@@ -32080,6 +32228,11 @@ broken out to SMD pads</text>
 <pinref part="JP13" gate="G$1" pin="3"/>
 <label x="215.9" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<wire x1="312.42" y1="165.1" x2="302.26" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="JP18" gate="G$1" pin="3"/>
+<label x="302.26" y="165.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="~D2/A6" class="0">
 <segment>
@@ -32091,6 +32244,11 @@ broken out to SMD pads</text>
 <wire x1="226.06" y1="147.32" x2="215.9" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="G$1" pin="3"/>
 <label x="215.9" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="147.32" x2="302.26" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="G$1" pin="3"/>
+<label x="302.26" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~D3" class="0">
@@ -32104,6 +32262,11 @@ broken out to SMD pads</text>
 <label x="144.78" y="157.48" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(RX1/SLINT)~D4"/>
 </segment>
+<segment>
+<wire x1="312.42" y1="144.78" x2="302.26" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="G$1" pin="4"/>
+<label x="302.26" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="~D4" class="0">
 <segment>
@@ -32115,6 +32278,11 @@ broken out to SMD pads</text>
 <wire x1="142.24" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
 <label x="144.78" y="127" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(PDMCLK/SWO)~D22"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="142.24" x2="302.26" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="G$1" pin="5"/>
+<label x="302.26" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~D5" class="0">
@@ -32128,6 +32296,11 @@ broken out to SMD pads</text>
 <label x="144.78" y="124.46" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(I2SWCLK/CMPOUT)~D23"/>
 </segment>
+<segment>
+<wire x1="312.42" y1="139.7" x2="302.26" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="G$1" pin="6"/>
+<label x="302.26" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="~D6" class="0">
 <segment>
@@ -32139,6 +32312,11 @@ broken out to SMD pads</text>
 <wire x1="226.06" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="G$1" pin="7"/>
 <label x="215.9" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="137.16" x2="302.26" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="G$1" pin="7"/>
+<label x="302.26" y="137.16" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~D7" class="0">
@@ -32152,6 +32330,11 @@ broken out to SMD pads</text>
 <label x="144.78" y="111.76" size="1.27" layer="95" xref="yes"/>
 <pinref part="U1" gate="U1" pin="(MOSI2/I2SWCLK)~D28"/>
 </segment>
+<segment>
+<wire x1="312.42" y1="134.62" x2="302.26" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="JP17" gate="G$1" pin="8"/>
+<label x="302.26" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="~D8/A8" class="0">
 <segment>
@@ -32163,6 +32346,11 @@ broken out to SMD pads</text>
 <wire x1="226.06" y1="129.54" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="G$1" pin="10"/>
 <label x="215.9" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="129.54" x2="302.26" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="JP12" gate="G$1" pin="10"/>
+<label x="302.26" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~D9/A9" class="0">
@@ -32176,6 +32364,11 @@ broken out to SMD pads</text>
 <label x="71.12" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="U1" pin="~AD12(PDMCLK/TX1)"/>
 </segment>
+<segment>
+<wire x1="312.42" y1="127" x2="302.26" y2="127" width="0.1524" layer="91"/>
+<pinref part="JP12" gate="G$1" pin="9"/>
+<label x="302.26" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="~D10/A10" class="0">
 <segment>
@@ -32187,6 +32380,11 @@ broken out to SMD pads</text>
 <wire x1="73.66" y1="116.84" x2="71.12" y2="116.84" width="0.1524" layer="91"/>
 <label x="71.12" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="U1" pin="~AD13(I2SBCLK/RX1)"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="124.46" x2="302.26" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="JP12" gate="G$1" pin="8"/>
+<label x="302.26" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="~D28" class="0">
@@ -32280,6 +32478,11 @@ broken out to SMD pads</text>
 <label x="71.12" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="U1" pin="~AD31(SCCCLK)"/>
 </segment>
+<segment>
+<wire x1="312.42" y1="157.48" x2="302.26" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="JP18" gate="G$1" pin="6"/>
+<label x="302.26" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="D20/A4" class="0">
 <segment>
@@ -32291,6 +32494,11 @@ broken out to SMD pads</text>
 <wire x1="73.66" y1="114.3" x2="71.12" y2="114.3" width="0.1524" layer="91"/>
 <label x="71.12" y="114.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="U1" pin="AD16(TRIG0/SCCRST)"/>
+</segment>
+<segment>
+<wire x1="312.42" y1="160.02" x2="302.26" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="JP18" gate="G$1" pin="5"/>
+<label x="302.26" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

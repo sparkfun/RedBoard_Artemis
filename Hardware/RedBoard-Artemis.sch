@@ -31139,21 +31139,21 @@ bottom port silicon digital microphone with a single bit PDM output.</descriptio
 <sheets>
 <sheet>
 <plain>
-<wire x1="0" y1="68.58" x2="147.32" y2="68.58" width="0.2032" layer="97" style="longdash"/>
+<wire x1="0" y1="71.12" x2="147.32" y2="71.12" width="0.2032" layer="97" style="longdash"/>
 <text x="200.406" y="41.402" size="2.54" layer="94" font="vector" ratio="15" align="center">Artemis</text>
 <text x="66.294" y="63.246" size="2.54" layer="94" font="vector" ratio="15" align="center">USB-to-Serial Converter</text>
 <text x="170.434" y="11.176" size="2.54" layer="94" font="vector">N. Seidle</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">X03</text>
-<wire x1="147.32" y1="68.58" x2="162.56" y2="68.58" width="0.2032" layer="97" style="longdash"/>
-<wire x1="162.56" y1="68.58" x2="248.92" y2="68.58" width="0.2032" layer="97" style="longdash"/>
-<wire x1="147.32" y1="68.58" x2="147.32" y2="0" width="0.2032" layer="97" style="longdash"/>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
+<wire x1="147.32" y1="71.12" x2="162.56" y2="71.12" width="0.2032" layer="97" style="longdash"/>
+<wire x1="162.56" y1="71.12" x2="248.92" y2="71.12" width="0.2032" layer="97" style="longdash"/>
+<wire x1="147.32" y1="71.12" x2="147.32" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="45.72" y="50.8" size="1.778" layer="97" font="vector">This is the penny-in-the-fuse jumper.
 Close only if you know what you're doing.</text>
 <text x="180.34" y="99.06" size="1.27" layer="97" ratio="15" align="center">Optional Bus Masters
 broken out to SMD pads</text>
 <text x="106.934" y="177.546" size="2.54" layer="94" font="vector" ratio="15" align="center">Artemis Module</text>
 <text x="213.614" y="180.086" size="2.54" layer="94" font="vector" ratio="15" align="center">Headers</text>
-<wire x1="162.56" y1="68.58" x2="162.56" y2="185.42" width="0.2032" layer="97" style="longdash"/>
+<wire x1="162.56" y1="71.12" x2="162.56" y2="185.42" width="0.2032" layer="97" style="longdash"/>
 <text x="16.256" y="127.254" size="1.778" layer="97" rot="R90">DNP</text>
 </plain>
 <instances>
@@ -31195,7 +31195,7 @@ broken out to SMD pads</text>
 <instance part="JP6" gate="G$1" x="246.38" y="25.4" smashed="yes"/>
 <instance part="JP8" gate="G$1" x="241.3" y="20.32" smashed="yes"/>
 <instance part="JP9" gate="G$1" x="246.38" y="20.32" smashed="yes"/>
-<instance part="U$16" gate="G$1" x="236.22" y="78.74" smashed="yes"/>
+<instance part="U$16" gate="G$1" x="236.22" y="81.28" smashed="yes"/>
 <instance part="C12" gate="G$1" x="63.5" y="17.78" smashed="yes" rot="MR0">
 <attribute name="NAME" x="63.246" y="20.193" size="1.778" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="63.246" y="17.907" size="1.778" layer="96" font="vector" rot="R180"/>

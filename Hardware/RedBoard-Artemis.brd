@@ -29200,10 +29200,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="ARTEMIS_FP">
-<wire x1="-7" y1="-5" x2="8" y2="-5" width="0.127" layer="21"/>
-<wire x1="8" y1="-5" x2="8" y2="5" width="0.127" layer="21"/>
-<wire x1="8" y1="5" x2="-7" y2="5" width="0.127" layer="21"/>
-<wire x1="-7" y1="5" x2="-7" y2="-5" width="0.127" layer="21"/>
+<wire x1="-7.375" y1="-5.375" x2="8.375" y2="-5.375" width="0.127" layer="21"/>
+<wire x1="8.375" y1="-5.375" x2="8.375" y2="5.375" width="0.127" layer="21"/>
+<wire x1="8.375" y1="5.375" x2="-7.375" y2="5.375" width="0.127" layer="21"/>
+<wire x1="-7.375" y1="5.375" x2="-7.375" y2="-5.375" width="0.127" layer="21"/>
 <rectangle x1="-5.7" y1="-4.8" x2="-5.3" y2="-4.2" layer="51"/>
 <rectangle x1="-4.7" y1="-4.8" x2="-4.3" y2="-4.2" layer="51"/>
 <rectangle x1="-2.7" y1="-4.8" x2="-2.3" y2="-4.2" layer="51"/>
@@ -29385,6 +29385,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="~D37" x="3.5" y="-4.5" dx="0.4" dy="0.6" layer="1" rot="R180"/>
 <smd name="~D44" x="4" y="-3.7" dx="0.4" dy="0.6" layer="1" rot="R180"/>
 <smd name="GND@59" x="4.5" y="-4.5" dx="0.4" dy="0.6" layer="1" rot="R180"/>
+<wire x1="-7.25" y1="-5.25" x2="8.25" y2="-5.25" width="0.127" layer="51"/>
+<wire x1="8.25" y1="-5.25" x2="8.25" y2="5.25" width="0.127" layer="51"/>
+<wire x1="8.25" y1="5.25" x2="-7.25" y2="5.25" width="0.127" layer="51"/>
+<wire x1="-7.25" y1="5.25" x2="-7.25" y2="-5.25" width="0.127" layer="51"/>
 </package>
 </packages>
 </library>
@@ -29878,8 +29882,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$70" library="buzzard_labels (2)" package="MEAS3" value="" x="28.829" y="19.685" smashed="yes"/>
 <element name="U$71" library="buzzard_labels (2)" package="RX11" value="" x="63.373" y="45.974" smashed="yes" rot="R90"/>
 <element name="U$72" library="buzzard_labels (2)" package="TX10" value="" x="60.96" y="45.847" smashed="yes" rot="R90"/>
-<element name="U$49" library="buzzard_labels (3)" package="RX01" value="" x="12.7" y="44.958" smashed="yes" rot="MR90"/>
-<element name="U$53" library="buzzard_labels (3)" package="TX00" value="" x="10.16" y="44.958" smashed="yes" rot="MR90"/>
+<element name="U$49" library="buzzard_labels (3)" package="RX01" value="" x="12.7" y="50.165" smashed="yes" rot="MR270"/>
+<element name="U$53" library="buzzard_labels (3)" package="TX00" value="" x="10.16" y="50.165" smashed="yes" rot="MR270"/>
 <element name="JP16" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" value="" x="24.13" y="46.99" smashed="yes" rot="MR90">
 <attribute name="NAME" x="25.273" y="46.99" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="VALUE" x="22.987" y="46.99" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>

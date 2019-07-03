@@ -26026,10 +26026,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="ARTEMIS_FP">
-<wire x1="-7" y1="-5" x2="8" y2="-5" width="0.127" layer="21"/>
-<wire x1="8" y1="-5" x2="8" y2="5" width="0.127" layer="21"/>
-<wire x1="8" y1="5" x2="-7" y2="5" width="0.127" layer="21"/>
-<wire x1="-7" y1="5" x2="-7" y2="-5" width="0.127" layer="21"/>
+<wire x1="-7.375" y1="-5.375" x2="8.375" y2="-5.375" width="0.127" layer="21"/>
+<wire x1="8.375" y1="-5.375" x2="8.375" y2="5.375" width="0.127" layer="21"/>
+<wire x1="8.375" y1="5.375" x2="-7.375" y2="5.375" width="0.127" layer="21"/>
+<wire x1="-7.375" y1="5.375" x2="-7.375" y2="-5.375" width="0.127" layer="21"/>
 <rectangle x1="-5.7" y1="-4.8" x2="-5.3" y2="-4.2" layer="51"/>
 <rectangle x1="-4.7" y1="-4.8" x2="-4.3" y2="-4.2" layer="51"/>
 <rectangle x1="-2.7" y1="-4.8" x2="-2.3" y2="-4.2" layer="51"/>
@@ -26211,6 +26211,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="~D37" x="3.5" y="-4.5" dx="0.4" dy="0.6" layer="1" rot="R180"/>
 <smd name="~D44" x="4" y="-3.7" dx="0.4" dy="0.6" layer="1" rot="R180"/>
 <smd name="GND@59" x="4.5" y="-4.5" dx="0.4" dy="0.6" layer="1" rot="R180"/>
+<wire x1="-7.25" y1="-5.25" x2="8.25" y2="-5.25" width="0.127" layer="51"/>
+<wire x1="8.25" y1="-5.25" x2="8.25" y2="5.25" width="0.127" layer="51"/>
+<wire x1="8.25" y1="5.25" x2="-7.25" y2="5.25" width="0.127" layer="51"/>
+<wire x1="-7.25" y1="5.25" x2="-7.25" y2="-5.25" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>

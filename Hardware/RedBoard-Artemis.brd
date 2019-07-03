@@ -21517,6 +21517,7 @@
 <wire x1="43.18" y1="1.27" x2="40.64" y2="1.27" width="1.27" layer="22"/>
 <wire x1="26.416" y1="57.15" x2="23.876" y2="57.15" width="1.27" layer="22"/>
 <wire x1="23.876" y1="57.15" x2="26.416" y2="57.15" width="1.27" layer="21"/>
+<text x="33.02" y="-7.62" size="1.778" layer="51" font="vector" ratio="15">N. Seidle</text>
 </plain>
 <libraries>
 <library name="SparkFun">

@@ -40,7 +40,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="ReferenceLC" color="13" fill="1" visible="no" active="yes"/>
@@ -31238,6 +31238,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <approved hash="19,16,0619059471f0727d"/>
 <approved hash="19,16,04a3be042012e4b7"/>
 <approved hash="19,16,1e4fda504646fc5b"/>
+<approved hash="3,1,9eb10cdc1b85acfb"/>
+<approved hash="3,1,536b380440433835"/>
+<approved hash="3,1,124235ea39721eda"/>
+<approved hash="3,1,2a2508cf0a992873"/>
+<approved hash="3,1,478ad41ee8e0a198"/>
+<approved hash="3,1,6a63218520286bce"/>
+<approved hash="3,1,9df4330a2c1f82e1"/>
+<approved hash="3,1,b947ab2db520a74a"/>
+<approved hash="3,1,9dfe330033e79d19"/>
+<approved hash="3,1,18f2321628dd4526"/>
+<approved hash="3,1,f45edff6a1c78a6f"/>
+<approved hash="3,1,6262bb0484905df6"/>
+<approved hash="3,1,3f137009e9e7a522"/>
+<approved hash="23,1,622e60ee618c634c"/>
+<approved hash="23,1,4f1d1b791b6b4f0f"/>
 </errors>
 </board>
 </drawing>

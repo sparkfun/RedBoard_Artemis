@@ -2,7 +2,11 @@ SparkFun RedBoard Artemis
 ============================
 
 ![SparkFun RedBoard Artemis](https://cdn.sparkfun.com/assets/parts/1/4/0/1/9/15444-SparkFun_RedBoard_Artemis-01.jpg)  
-*SparkFun RedBoard (DEV-15444)*](https://www.sparkfun.com/products/15444)
+[*SparkFun RedBoard (DEV-15444)*](https://www.sparkfun.com/products/15444)
+
+
+-> [![alt text](https://cdn.sparkfun.com/assets/parts/1/4/0/1/9/15444-SparkFun_RedBoard_Artemis-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/4/0/1/9/15444-SparkFun_RedBoard_Artemis-01.jpg) <-
+
 
 Think of the RedBoard Artemis as just another Arduino... That has BLE. And one meg of flash. And runs at less than 1mA. Oh, and it can run TensorFlow models. Ya, that too. The RedBoard Artemis takes the incredibly powerful Artemis module from SparkFun and wraps it up in an easy to use and familiar Uno footprint. We've written an Arduino core from scratch to make programming the Artemis as familiar as `Serial.begin(9600)`. Time-to-first-blink is less than five minutes.
 
@@ -22,6 +26,7 @@ Documentation
 * **[Artemis Development with Arduino](https://learn.sparkfun.com/tutorials/artemis-development-with-arduino)
 * **[Ambiq Apollo3 SDK SetUp](https://learn.sparkfun.com/tutorials/using-sparkfun-edge-board-with-ambiq-apollo3-sdk)
 * **[Designing with the SparkFun Artemis](https://learn.sparkfun.com/tutorials/designing-with-the-sparkfun-artemis)
+* **[CH340E USB to serial IC Drivers](https://www.sparkfun.com/ch340)
 
 License Information
 -------------------

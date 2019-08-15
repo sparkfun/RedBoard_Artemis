@@ -4,10 +4,6 @@ SparkFun RedBoard Artemis
 ![SparkFun RedBoard Artemis](https://cdn.sparkfun.com/assets/parts/1/4/0/1/9/15444-SparkFun_RedBoard_Artemis-01.jpg)  
 [*SparkFun RedBoard (DEV-15444)*](https://www.sparkfun.com/products/15444)
 
-
--> [![alt text](https://cdn.sparkfun.com/assets/parts/1/4/0/1/9/15444-SparkFun_RedBoard_Artemis-01.jpg)](https://cdn.sparkfun.com/assets/parts/1/4/0/1/9/15444-SparkFun_RedBoard_Artemis-01.jpg) <-
-
-
 Think of the RedBoard Artemis as just another Arduino... That has BLE. And one meg of flash. And runs at less than 1mA. Oh, and it can run TensorFlow models. Ya, that too. The RedBoard Artemis takes the incredibly powerful Artemis module from SparkFun and wraps it up in an easy to use and familiar Uno footprint. We've written an Arduino core from scratch to make programming the Artemis as familiar as `Serial.begin(9600)`. Time-to-first-blink is less than five minutes.
 
 The RedBoard Artemis has the improved power conditioning and USB to serial that we've refined over the years on our RedBoard line of products. A modern USB-C connector makes programming easy. A Qwiic connector makes I<sup>2</sup>C easy. The RedBoard Artemis is fully compatible with SparkFun's Arduino core and can be programmed easily under the Arduino IDE. We've exposed the JTAG connector for more advanced users who prefer to use the power and speed of professional tools. We've added a digital MEMS microphone for folks wanting to experiment with always-on voice commands with TensorFlow and machine learning. We've even added a convenient jumper to measure current consumption for low power testing.
